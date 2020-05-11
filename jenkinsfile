@@ -13,12 +13,10 @@ stage('Test')
 steps{
 echo "Testing the Project.........."
 }
-}
 stage('Release') 
 {
 steps{
 echo "Release the Project.........."
-}
 }
 stage('Deploy') 
 {
